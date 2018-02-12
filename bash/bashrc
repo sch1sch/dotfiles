@@ -140,7 +140,7 @@ if which -s dircolors; then
 fi
 
 source ~/.nvm/nvm.sh
-source /Users/jakob/.phpbrew/bashrc
+source /Users/schisch/.phpbrew/bashrc
 
 # Golang
 export GOROOT="/usr/local/opt/go/libexec"
@@ -206,8 +206,8 @@ fi
 
 
 # Allow usage of travis cli
-if [ -f /Users/jakob/.travis/travis.sh ]; then
-    source /Users/jakob/.travis/travis.sh
+if [ -f /Users/schisch/.travis/travis.sh ]; then
+    source /Users/schisch/.travis/travis.sh
 fi
 
 # Set proper ulimit
